@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/sidebar_label"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_label"
+            android:icon="@drawable/all_label"
+            android:title="@string/all_label_name" />
+        <item
+            android:id="@+id/label_manage"
+            android:icon="@drawable/label_manage"
+            android:title="@string/label_manage_name"/>
+        <item
+            android:id="@+id/recycle_bin"
+            android:icon="@drawable/recycle_bin"
+            android:title="@string/recycle_bin_name"/>
+    </group>
+    <group
+        android:id="@+id/sidebar_setting"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="@string/sidebar_setting_name"/>
+        <item
+            android:id="@+id/function_guide"
+            android:icon="@drawable/function_guide"
+            android:title="@string/function_guide_name"/>
+        <item
+            android:id="@+id/recommend_share"
+            android:icon="@drawable/recommend_share"
+            android:title="@string/recommend_share_name"/>
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/about_us"
+            android:title="@string/about_us_name"/>
+    </group>
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <!--path不能设为null-->
+        <root-path path="" name="camera_image_path"/>
+    </paths>
+</resources>

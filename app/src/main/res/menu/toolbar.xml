@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/search_btn"-->
+        <!--android:icon="@drawable/search"-->
+        <!--android:title="@string/app_name"-->
+        <!--app:showAsAction="always"/>-->
+    <item
+        android:id="@+id/recommend_share_btn"
+        android:icon="@drawable/search"
+        android:title="@string/recommend_share_name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/support_evaluation_btn"
+        android:icon="@drawable/search"
+        android:title="@string/support_evaluation_name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/contact_us_btn"
+        android:icon="@drawable/search"
+        android:title="@string/contact_us_name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/function_guide_btn"
+        android:icon="@drawable/search"
+        android:title="@string/function_guide_name"
+        app:showAsAction="never"/>
+</menu>

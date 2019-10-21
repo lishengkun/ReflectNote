@@ -1,0 +1,74 @@
+<resources>
+    <!--App名称-->
+    <string name="app_name">即刻笔记</string>
+
+    <!--首页toolbar按钮名称-->
+    <string name="search_btn_name">search</string>
+    <string name="recommend_share_name">推荐分享</string>
+    <string name="support_evaluation_name">支持评价</string>
+    <string name="contact_us_name">联系我们</string>
+    <string name="function_guide_name">功能指南</string>
+
+    <!--homepage名称-->
+    <string name="homepage_name">最新</string>
+
+    <!--侧边栏菜单项-->
+    <string name="all_label_name">全部</string>
+    <string name="label_manage_name">标签管理</string>
+    <string name="recycle_bin_name">回收站</string>
+    <string name="sidebar_setting_name">设置</string>
+    <string name="about_us_name">关于</string>
+    <string name="exit_app">退出</string>
+
+    <!--标签管理单项-->
+    <string name="label_name"></string>
+    
+    <!--添加标签-->
+    <string name="add_label_name"><font size="16">请输入标签名...</font></string>
+    <string name="label_new_name">输入标签名</string>
+    
+    <!--关于-->
+    <string name="app_version_about_us">v1.0</string>
+    <string name="app_slogan_about_us">总有些美好想要留下</string>
+    <string name="update_history_about_us">如有问题或建议</string>
+    <string name="contact_way_about_us">QQ邮箱:1016034733@QQ.com</string>
+    <string name="contact_welcome_about_us">请联系我</string>
+    <string name="app_copyright_about_us">Copyright @2019 All Right Reserved</string>
+    
+    <!--回收站-->
+    <string name="recycle_bin_empty_tip">这里空空如也</string>
+    <string name="all_select_string_recycle_btn">全选</string>
+    <string name="delete_string_recycle_bin">删除</string>
+    
+    <!--设置-->
+    <string name="backup_and_restore">备份与还原</string>
+    <string name="restore_note">还原笔记</string>
+    <string name="local_backup">本地备份</string>
+    <string name="individualization">个性化</string>
+    <string name="font_size_setting">字体大小</string>
+    <!--switch状态-->
+    <string name="switch_on_setting">On</string>
+    <string name="switch_off_setting">Off</string>
+
+    <!--识别结果-->
+    <string name="ocr_result">识别结果 </string>
+    <!--文字笔记-->
+    <string name="input_content_note_book">点击输入文字...</string>
+
+    <!--功能指南-->
+    <string name="function_guide_intro">
+        "\u3000\u3000"映像笔记是一款针对华为手机HiAi开放能力设计开发的笔记类手机应用,
+        用户可以在极简洁的界面中记笔记、写文章、列清单，保存图片等数据文件;</string>
+    <string name="function_guide_detect">
+        "\u3000\u3000"文本识别,可以拍照或者选择相册中的图片来对图片中的文字进行识别,并提取文字</string>
+    <string name="function_guide_voice">
+        "\u3000\u3000"语音速记,使用此功能可以把录音记录下来并转换成文字记录,增加笔记记录效率,但由于API限制,只能识别20秒录音音频</string>
+    <string name="function_guide_hand_write">
+        "\u3000\u3000"手写绘图,可以把手机当做练习本或者涂鸦本,写写画画,留住你的奇思妙想</string>
+    <string name="function_guide_to_do">
+        "\u3000\u3000"待办事项,本功能专门为生活中做计划的用户或者可能记性不好的人开发,可以添加要做的每件事,做完在主页点击方框消掉此待办事项即可</string>
+    <string name="function_guide_keep_good">
+        "\u3000\u3000"留住美好.正如此名,可以以照片的形式留住生活中的美好瞬间,另外此功能可以对构图评分,拍的更美</string>
+    <string name="function_guide_note_book">
+        "\u3000\u3000"文字笔记,你可以用此功能记笔记,写文章,一切文本形式的数据记录,使用标签分类,把相同的文件添加到同一标签中</string>
+</resources>

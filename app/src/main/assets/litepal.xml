@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="MyDataBase"></dbname>
+    <!--更新数据一定要修改版本号-->
+    <version value="1"></version>
+    <!--表-->
+    <list>
+        <mapping class="com.lskisme.reflexnote.litepal.FileAddress"></mapping>
+    </list>
+</litepal>

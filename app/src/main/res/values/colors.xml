@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--透明颜色-->
+    <color name="colorTransparent">#00000000</color>
+    <!--悬浮按钮颜色-->
+    <color name="colorLevitationButton">#2196f3</color>
+</resources>

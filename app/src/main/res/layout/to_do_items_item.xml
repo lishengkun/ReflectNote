@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp">
+    <ImageView
+        android:id="@+id/to_do_item_item"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/row_double"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <EditText
+        android:id="@+id/input_name_to_do_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/to_do_item_item"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/show_name_to_do_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="24dp"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/to_do_item_item"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+        android:id="@+id/insure_input_content_to_do_item"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/new_label_name_insure"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+</android.support.constraint.ConstraintLayout>
